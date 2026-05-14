@@ -1,2 +1,3 @@
-# primer_parcial_marizza
-prrimer parcial informatica general martin marizza
+Martín Marizza
+Primer Parcial - Informática General 
+Artes Multimediales - UNA
