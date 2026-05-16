@@ -7,25 +7,42 @@
 h1, h2 {
     font-family: "Abel";
 }
+h1 {
+    font-weight: 800;
+    text-transform: uppercase;
+}
+h2 {
+    font-weight: 700;
+}
 
 /* BODY */
 body {
-    background-image: url(img/fondo);
+    background-image: url(img/fondo.png);
     background-repeat: repeat;
-    background-color: PaleTurquoise;
+    background-color: SlateGray;
     font-family: sans-serif;
+    margin: 0;
+    padding: 0; 
 }
 
 /* HEADER y FOOTER*/
 header, footer {
-    background-color: 0, 0, 139, 0.90;
-    padding: 1em;
+    background-color: rgba(0, 0, 139, 0.90);
+    padding: 1rem;
     text-align: center;
+}
+/* ESPACIO H1 y H2 ACHICADO */
+header h1 {
+    margin-bottom: 0.2rem
+}
+header h2 {
+    margin-top:0
 }
 
 /* MENU DE NAVEGACIÓN */ 
 nav {
     background-color: lightgray;
+    padding: 0.5rem;
 }
 /* BULLETS y ESPACIADO AUTOMÁTICO*/
 nav ul {
@@ -43,29 +60,81 @@ nav a {
     padding: 0.5rem 1rem;
     text-decoration: none;
     text-align: center;
+    display: block;
 }
 /* COMPORTAMIENTO LINKS: NORMAL */
 nav a:link {
-    background-color: cadetblue;
+    background-color: steelblue;
     color: white;
 }
 /* VISITADO */
-nav a:link {
-    background-color: cadetblue;
+nav a:visited {
+    background-color: steelblue;
     color: darkmagenta;
 }
 /* MOUSE SOBRE */
-nav a:link {
+nav a:hover {
     background-color: darkslategray;
     color: white;
 }
 /* LINK ACTIVO */
-nav a:link {
+nav a:active {
     background-color: darkmagenta;
-    color: cadetblue;
+    color: steelblue;
 }
+
 /* MAIN */
 main {
-    background-color: 175, 238, 238, 0.90;
     padding: 2em;
+}
+/* LINEAS HORIZONTALES COLOR Y GROSOR */
+hr {
+    border: none;
+    height: 0.25rem;
+    background-color: black;
+}
+
+/* SECTIONS: ENMARCAR Y COLOR */
+section, aside {
+    background-color: rgba(175, 238, 238, 0.90);
+    border: 0.15rem black;
+    padding: 1.5rem;
+}
+
+/*TECNOLOGÍA: SECTION Y ASIDE JUNTOS */
+.contenidojunto {
+    display: flex;
+}
+.contenido section {
+    width: 70%;
+}
+.contenido aside {
+    width: 30%;
+    border-style: dotted;
+}
+
+/* IMÁGENES */
+img {
+    width: 100%;
+    max-width: 700px;
+    height: auto;
+    display: block;
+    margin: 1 rem auto;
+}
+/* IMÁGENES JUNTAS */
+.imagenesjuntas img {
+    width: 50%;
+    margin: 0;
+}
+.imagenesjuntas {
+    display:flex;
+    margin: 1rem auto;
+}
+
+iframe {
+    width: 100%;
+    max-width: 700px;
+    height: auto;
+    display: block;
+    margin: 1rem auto;
 }
