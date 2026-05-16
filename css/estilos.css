@@ -1,0 +1,71 @@
+/* Generales a todo el documento */
+#contenedor {
+    width: 100%;
+    max-width: 1200px;
+}
+*{ box-sizing: border-box; }
+h1, h2 {
+    font-family: "Abel";
+}
+
+/* BODY */
+body {
+    background-image: url(img/fondo);
+    background-repeat: repeat;
+    background-color: PaleTurquoise;
+    font-family: sans-serif;
+}
+
+/* HEADER y FOOTER*/
+header, footer {
+    background-color: 0, 0, 139, 0.90;
+    padding: 1em;
+    text-align: center;
+}
+
+/* MENU DE NAVEGACIÓN */ 
+nav {
+    background-color: lightgray;
+}
+/* BULLETS y ESPACIADO AUTOMÁTICO*/
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+/* DISPLAY UNO AL LADO DEL OTRO */
+nav li {
+    display: inline-block;
+}
+/* ASPECTO BOTONES */
+nav a {
+    font-size: 1.2rem;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    text-align: center;
+}
+/* COMPORTAMIENTO LINKS: NORMAL */
+nav a:link {
+    background-color: cadetblue;
+    color: white;
+}
+/* VISITADO */
+nav a:link {
+    background-color: cadetblue;
+    color: darkmagenta;
+}
+/* MOUSE SOBRE */
+nav a:link {
+    background-color: darkslategray;
+    color: white;
+}
+/* LINK ACTIVO */
+nav a:link {
+    background-color: darkmagenta;
+    color: cadetblue;
+}
+/* MAIN */
+main {
+    background-color: 175, 238, 238, 0.90;
+    padding: 2em;
+}
