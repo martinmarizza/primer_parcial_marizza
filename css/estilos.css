@@ -98,7 +98,7 @@ hr {
 }
 
 /* SECTIONS, ASIDE; IMAGEN Y CITA (LENGUAJE): ENMARCAR Y COLOR */
-section, aside, .imagenycita{
+section, aside, .imagenycita {
     background-color: rgba(175, 238, 238, 0.90);
     border: 0.15rem solid black;
     padding: 1.5rem;
@@ -132,6 +132,7 @@ img {
 .imagenesjuntas img {
     width: 50%;
     margin: 0;
+    max-width: 350px;
 }
 .imagenesjuntas {
     display:flex;
@@ -148,12 +149,12 @@ iframe {
 }
 
 /* ESTILOS MAIL */
-adress a {
+address a {
     color: black;
     font-style: italic;
     text-decoration: none;
 }
-adress a:hover {
+address a:hover {
     color: darkmagenta;
     text-decoration: underline;
 }
