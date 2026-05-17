@@ -43,7 +43,7 @@ header h2 {
 
 /* MENU DE NAVEGACIÓN */ 
 nav {
-    background-color: lightgray;
+    background-color: white;
     padding: 0.5rem;
 }
 /* BULLETS y ESPACIADO AUTOMÁTICO*/
@@ -128,16 +128,15 @@ img {
     background-color: rgba(175, 238, 238, 0.90);
     border: 0.15rem solid black;
     padding: 1.5rem;
+    margin: 1rem auto;
+    display: flex;
 }
 .imagenesjuntas img {
     width: 50%;
-    margin: 0;
+    margin: 1rem auto;
     max-width: 350px;
 }
-.imagenesjuntas {
-    display:flex;
-    margin: 1rem auto;
-}
+
 
 /* VIDEO TAMAÑO Y CENTRADO */
 iframe {
@@ -157,4 +156,9 @@ address a {
 address a:hover {
     color: darkmagenta;
     text-decoration: underline;
+}
+
+/* CENTRAR CITA */
+blockquote {
+    text-align: center;
 }
